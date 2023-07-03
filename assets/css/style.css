@@ -1,7 +1,12 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');*/
+
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
 }
 
 #coffee-yellow {
     max-width: 50%;
+    width:fit-content;
 }

@@ -4,6 +4,7 @@
 body {
     font-family: Quicksand;/*Verdana, Geneva, Tahoma, sans-serif;*/
     font-size: 16;
+    margin: 0px 0px 0px 0px;
 }
 
 header {
@@ -20,29 +21,84 @@ h2 {
 }
 
 nav {
-    margin: 0;
-    padding: 0;
+    
+}
+.navbar {
+    width: 100vw;
     background-color: #014901;
+    overflow: auto;
 }
-nav ul {
-    list-style-type: none;
-}
-nav il {
-    display: inline-block;
-    color: whitesmoke;
-}
-
-a {
+.navbar > div {
+    /*float: left;*/
     border: 2px solid whitesmoke;
-    border-radius: 1rem;
-    width: 6rem;
-    height: 3.5rem;
-    padding: 2px 10px 2px 10px;
+    border-radius: 0.5rem;
+    display: inline-block;
+    width: 30%;/*7rem*/
+    min-width: 150px;
+    height: 3rem;
+    margin: 1.25%;
+}
+.navbar a {
+    color: whitesmoke;
     text-align: center;
     text-decoration: none;
-    color: whitesmoke;
-    display: inline-block;
-    margin: 2px 2px;
+}
+.submenu {
+    min-height: 2px;
+    background-color: #012901;
+}
+.dropdown {
+    display: none;
+    color: whitesmoke; 
+}
+.dropdown a {
+    color: whitesmoke; 
+    text-decoration: none;
+}
+.doubleLine {
+    position: relative;
+    top: 0;
+}
+.navbar div:hover {
+    background-color: #016401;
+}
+.actual {
+    background-color: #9ACD32;
+}
+.middle {
+    vertical-align: middle;
+}
+.center {
+    position: relative;
+    left: 35%;
+}
+@media screen and (min-width: 500px) {
+    .submenu:hover {
+        .dropdown {
+            display: inline;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .navbar{
+        width: 300;
+    }
+    .navbar > div {
+        display: block;
+        width: 150;
+        }
+    .submenu {
+        min-height: 100%;
+        background-color: #012901;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    .center {
+        position: relative;
+        left: 180px;
+        top: -9rem;
+    }    
 }
 
 #coffee-yellow {
@@ -71,4 +127,11 @@ a {
     /*top: -125px;
     left: 45%;
     rotate: -15deg;*/
+}
+
+.wide {
+    max-width: 100%
+}
+.partwide {
+    max-width: 30%
 }

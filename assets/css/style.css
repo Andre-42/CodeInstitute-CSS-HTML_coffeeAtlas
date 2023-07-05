@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 body {
-    font-family: Quicksand;/*Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: Quicksand, Verdana, "Times New Roman";
+    /*Verdana, Geneva, Tahoma, sans-serif;*/
     font-size: 16;
     margin: 0px 0px 0px 0px;
 }
@@ -13,65 +14,77 @@ header {
     background: #32CD32;
     background-repeat: no-repeat;
 }
+
 h1 {
     padding: 0.5rem 1rem 0rem 1rem;
 }
+
 h2 {
     padding: 0rem 1rem 1rem 1rem;
 }
 
-nav {
-    
-}
 .navbar {
     width: 100vw;
     background-color: #014901;
     overflow: auto;
 }
-.navbar > div {
+
+.navbar>div {
     /*float: left;*/
     border: 2px solid whitesmoke;
     border-radius: 0.5rem;
     display: inline-block;
-    width: 30%;/*7rem*/
+    width: 30%;
+    /*7rem*/
     min-width: 150px;
     height: 3rem;
-    margin: 1.25%;
+    margin: 1.0%;
 }
+
 .navbar a {
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
 }
+
 .submenu {
     min-height: 2px;
     background-color: #012901;
 }
+
 .dropdown {
     display: none;
-    color: whitesmoke; 
+    color: whitesmoke;
 }
+
 .dropdown a {
-    color: whitesmoke; 
+    color: whitesmoke;
     text-decoration: none;
 }
+
 .doubleLine {
     position: relative;
     top: 0;
 }
+
 .navbar div:hover {
     background-color: #016401;
 }
+
 .actual {
     background-color: #9ACD32;
 }
+
 .middle {
     vertical-align: middle;
 }
+
 .center {
     position: relative;
     left: 35%;
 }
+
+/*
 @media screen and (min-width: 500px) {
     .submenu:hover {
         .dropdown {
@@ -79,26 +92,31 @@ nav {
         }
     }
 }
-@media screen and (max-width: 500px) {
-    .navbar{
+*/
+@media screen and (max-width: 520px) {
+    .navbar {
         width: 300;
     }
-    .navbar > div {
+
+    .navbar>div {
         display: block;
         width: 150;
-        }
+    }
+
     .submenu {
         min-height: 100%;
         background-color: #012901;
     }
+
     .dropdown {
         display: inline-block;
     }
+
     .center {
         position: relative;
         left: 180px;
         top: -9rem;
-    }    
+    }
 }
 
 #coffee-yellow {
@@ -110,6 +128,7 @@ nav {
     background-size: cover;
     background-position-y: top
 }
+
 .two-liner {
     position: relative;
     top: -0.5em;
@@ -121,6 +140,7 @@ nav {
     max-height: 100px;
     left: -5%;
 }
+
 #coffee-divStages {
     position: relative;
     max-width: 100%;
@@ -132,6 +152,7 @@ nav {
 .wide {
     max-width: 100%
 }
+
 .partwide {
     max-width: 30%
 }

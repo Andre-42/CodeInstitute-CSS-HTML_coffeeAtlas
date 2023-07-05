@@ -156,3 +156,42 @@ h2 {
 .partwide {
     max-width: 30%
 }
+
+.w320 {
+    display: inline-block;
+    overflow: hidden;
+    width: 30vw;
+    height: 20vw;
+}
+
+.w-320 {
+    display: inline-block;
+    overflow: hidden;
+    width: 30vw;
+    height: 20vw;
+}
+
+.restrain {
+    position: relative;
+    overflow: hidden;
+    rotate: 90deg;
+    width: 130%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+#vert5 {
+    object-position: 35% 60%;
+    rotate: 88deg;
+}
+
+#hor5 {
+    object-position: 35% 70%;
+    rotate: 85deg;
+}

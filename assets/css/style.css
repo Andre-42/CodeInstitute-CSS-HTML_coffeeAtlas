@@ -195,3 +195,21 @@ video {
     object-position: 35% 70%;
     rotate: 85deg;
 }
+
+.icon {
+    position: 50% 50%;
+    max-height: 50px;
+}
+
+.inln {
+    position: relative;
+    display: inline-block;
+}
+
+div>span .icon {
+    vertical-align: center;
+    color: #e63d0e;
+}
+h3 ~ img {
+    max-width: 40%;
+}

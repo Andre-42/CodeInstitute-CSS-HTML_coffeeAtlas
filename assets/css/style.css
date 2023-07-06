@@ -12,6 +12,7 @@ body {
 /*Header config*/
 header {
     position: fixed;
+    top: 0px;
     width: 100vw;
     color: whitesmoke;
     margin: inherit;
@@ -30,10 +31,17 @@ h2 {
     padding: 0rem 1rem 1rem 1rem;
 }
 
+.yellow-stg {
+    background-image: url("../images/coffee-bean-1637878.jpg");
+    background-size: cover;
+    background-position-y: top
+}
+
 /*navigation bar*/
 .navbar {
     margin: 100px 0px 0px 0px;
-    position: relative;
+    position: fixed;
+    top: 100px;
     width: 100vw;
     background-color: #014901;
     overflow: auto;
@@ -50,6 +58,8 @@ h2 {
 nav div>div {
     display: inline-block;
     vertical-align: top;
+    padding: 0px 20px 0px 20px;
+    z-index: 10;
 }
 
 .n3>a~a {
@@ -79,4 +89,34 @@ div>div:hover {
 div .actual {
     background-color: #9ACD32;
     z-index: 20;
+}
+
+/* paragraph styling*/
+section>p {
+    text-align: justify;
+}
+
+section>div {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+}
+
+.w320 {
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    height: auto;
+}
+
+.w320~div {
+    position: relative;
+    display: inline-block;
+    width: 60vw;
+    height: auto;
+}
+
+.restrain {
+    position: relative;
+    max-height: 100%
 }

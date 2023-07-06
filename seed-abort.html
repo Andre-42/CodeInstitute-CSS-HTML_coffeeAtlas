@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seeds can starve</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script language="Javascript">
+        function jsDropDown(imgid, newimg) {
+            document.getElementById(imgid).src = "assets/images/IR/daf46/" + newimg;
+        }
+    </script>
 </head>
 
 <body>
@@ -212,6 +217,24 @@
             <source src="assets/videos/CoffeeBad.mp4" type="video/mp4">
             <img src="assets/images/MRI/Seeds3D_small.jpg" alt="3D model of a stressed coffee bean.">
         </video>
+
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        chemical Feature:
+                        <select name="daf46" onChange="jsDropDown('imgid',this.value)">
+                            <option value="KHstorage48.png">sugar transport and storage</option>
+                            <option value="CWformdeg48.png">cell wall processing</option>
+                            <option value="Protein48.png">protein features</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <img class="DDimg" src="" id="imgid">
+                </tr>
+            </table>
+        </div>
     </section>
     <section>
         <h3 id="feedpath">So how does the seed gets its food delivery?</h3>

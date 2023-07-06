@@ -21,7 +21,7 @@
             <h2>Seeing Coffee through the chemical Eye.</h2>
         </div>
     </header>
-    <nav>
+    <!--<nav>
         <div class="navbar">
             <div class="middle">
                 <a href="index.html">
@@ -37,33 +37,39 @@
                 <a href="seed-abort.html">
                     <p>a failed seed</p>
                 </a>
+
+                <a class="sub" href="#structure">
+                    <p>the cherry</p>
+                </a>
+                <a class="sub" href="#problems">
+                    <p>its challenges</p>
+                </a>
+                <a class="sub" href="#starvation">
+                    <p>starvation</p>
+                </a>
+                <a class="sub" href="#feedpaths">
+                    <p>the nutrional highway</p>
+                </a>
             </div>
         </div>
-        <div class="submenu center">
-            <ul class="dropdown">
-                <li>
-                    <div>
-                        <a href="#structure">the cherry</a>
-                    </div>
-
-                </li>
-                <li>
-                    <div>
-                        <a href="#problems">its challenges</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="#starvation">starvation</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="#feedpaths">the nutrional highway</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        
+    </nav>-->
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">home</a>
+            </li>
+            <li><a href="dev-overview.html">seed development</a></li>
+            <li>
+                <a href="seed-abort.html">its challenges</a>
+                <ul>
+                    <li><a href="#structure">Option 1</a></li>
+                    <li><a href="#problems">Option 2</a></li>
+                    <li><a href="#starvation">Option 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
     <section>
         <h3 id="structure">The cherry - An incubator for the coffee bean.</h3>
@@ -200,24 +206,32 @@
         </p>
     </section>
     <section>
-        <h3 id="starvation">It all comes down to starvation!</h3>
-        <p>
-            You can see that it is not about damage sustained by these pests and diseases but rather about taking away
-            nutrients that should fill up the embryo&#39;s pantry, i.e. the coffee bean.
-            Here you can see how that works out in real life. This coffee tree had a fungal infection. As you can see
-            the cherry does look mostly normal from the outside. However MRI revealed that the coffee cherry actually
-            controlled the nutrient supply to its 2 seeds in a way that it shut down access to nutrients for one of them
-            to allow the other seed to grow normally.
-            In essence one seed was aborted. You can see the effect on the storage tissue as it is just a desintegrated
-            skeletal structure with little storage compounds remaining.
-        </p>
-        <img src="assets/images/arabica_60daf.JPG"
-            alt="A starved and normally developing coffea cherry on the same branch.">
-        <video controls>
-            <source src="assets/videos/CoffeeBad.mp4" type="video/mp4">
-            <img src="assets/images/MRI/Seeds3D_small.jpg" alt="3D model of a stressed coffee bean.">
-        </video>
-
+        <div>
+            <h3 id="starvation">It all comes down to starvation!</h3>
+            <p>
+                You can see that it is not about damage sustained by these pests and diseases but rather about taking
+                away
+                nutrients that should fill up the embryo&#39;s pantry, i.e. the coffee bean.
+                Here you can see how that works out in real life. This coffee tree had a fungal infection. As you can
+                see
+                the cherry does look mostly normal from the outside. However MRI revealed that the coffee cherry
+                actually
+                controlled the nutrient supply to its 2 seeds in a way that it shut down access to nutrients for one of
+                them
+                to allow the other seed to grow normally.
+                In essence one seed was aborted. You can see the effect on the storage tissue as it is just a
+                desintegrated
+                skeletal structure with little storage compounds remaining.
+            </p>
+        </div>
+        <div>
+            <img src="assets/images/arabica_60daf.JPG"
+                alt="A starved and normally developing coffea cherry on the same branch.">
+            <video controls>
+                <source src="assets/videos/CoffeeBad.mp4" type="video/mp4">
+                <img src="assets/images/MRI/Seeds3D_small.jpg" alt="3D model of a stressed coffee bean.">
+            </video>
+        </div>
         <div>
             <table>
                 <tr>

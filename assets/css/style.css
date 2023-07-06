@@ -6,15 +6,18 @@ body {
     font-size: 16;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background-color: #067e06;
+    background-color: #ecfdcc;
 }
 
 /*Header config*/
 header {
+    position: fixed;
+    width: 100vw;
     color: whitesmoke;
     margin: inherit;
-    background: #067e06;
+    background: #0c950c;
     background-repeat: no-repeat;
+    z-index: 999;
 }
 
 h1 {
@@ -29,47 +32,51 @@ h2 {
 
 /*navigation bar*/
 .navbar {
+    margin: 100px 0px 0px 0px;
     position: relative;
     width: 100vw;
     background-color: #014901;
     overflow: auto;
-    z-index: 3;
+    z-index: 10;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background: #014901;
-}
-
-.navbar li {
-    display: inline-block;
-}
-
-.navbar li a {
+.navbar a {
     color: white;
     display: block;
-    padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
 }
 
-/* Style the dropdown menu */
-.navbar ul ul {
-    position: absolute;
-    top: 100%;
+nav div>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.n3>a~a {
     display: none;
+    font-size: smaller;
 }
 
-.navbar ul ul li {
+.bld {
+    font-style: bold;
+}
+
+.n3:hover .sub {
     display: block;
 }
 
-.navbar li:hover ul {
-    display: block;
+a:hover {
+    text-decoration: underline;
+    background-color: #016401;
+    z-index: 40;
 }
 
-/* Change the background color of dropdown links on hover */
-.navbar ul ul li a:hover {
-    background-color: #555;
+div>div:hover {
+    background-color: #016401;
+    z-index: 30;
+}
+
+div .actual {
+    background-color: #9ACD32;
+    z-index: 20;
 }

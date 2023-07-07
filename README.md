@@ -5,7 +5,6 @@
 
 # General intent
 This page was created as a learning platform for students and general people that are interested in biology and chemistry of plants. The side gives a short introduction to the topic of growing Coffee by asking the Reader how long it takes to make a cup of coffee.
-![image](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/assets/135899198/16c86170-6bb0-4635-b591-10bb82f13db2)
 The site has been checked by Lighthouse accesibility and by the HTML and CSS Validator.
 Minor issues were found as a result of responsive design. However I was not able to edit the html and css files through the IDE platform after deployment.
 # Features
@@ -39,7 +38,6 @@ Minor issues were found as a result of responsive design. However I was not able
 # Unsolved
 - minor issues still exist in the formating at msartphone screen sizes. Time constraints and trouble with cloud IDE averted the correction after a first deployment. I currently can't access repositories with codeanywhere.
 ![image](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/assets/135899198/d71fc1bd-1b24-4d5f-ae3f-d0efc80812d1)
-![image](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/assets/135899198/f739bdb5-8669-45d9-9f3f-567cc3bbb27c)
 
 One issue is the Z-indexing and position of the footer (inaccessible) and one background color field which is to far in the foreground.
 

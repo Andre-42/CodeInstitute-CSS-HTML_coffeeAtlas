@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
 
 body {
     font-family: Quicksand, Verdana, "Times New Roman";
@@ -158,11 +158,11 @@ a {
     text-decoration: none;
 }
 
-
-
 .inln {
     position: relative;
     display: inline-block;
+    max-width: 30vw;
+    max-height: 300px;
 }
 
 .icon {
@@ -174,8 +174,7 @@ div>img .inln {
     max-width: 45%;
 }
 
-img~video,
-.inln {
+img~video .inln {
     right: -10px;
     max-width: 45%;
 }
@@ -235,13 +234,21 @@ img~video,
     max-width: 40vw;
 }
 
-footer {
-    background-color: #014901;
+/* footer */
+
+footer div {
+    position: relative;
+    display: inline-block;
+    height: 150px;
+    z-index: 999;
+    color: #014901;
 }
+
+
 
 @media screen and (max-width: 520px) {
     nav {
-        max-width=30vw;
+        max-width: 30vw;
     }
 
     .navbar {
@@ -257,7 +264,6 @@ footer {
 
     nav div>div {
         display: block;
-        vertical-align: top;
         padding: 0px 0px 0px 0px;
         z-index: 10;
     }
@@ -279,7 +285,10 @@ footer {
         max-width: 65vw;
     }
 
-    section p {}
+    .dark {
+        background-color: #8cf18c;
+        z-index: 999;
+    }
 
     section>div {
         display: block;

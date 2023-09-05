@@ -112,8 +112,6 @@ section {
 }
 */
 section > section > p {
-    text-align: justify;
-    padding: 0px 20px 0px 10px;
     position: relative;
     /*top: 100px;
 }
@@ -126,7 +124,10 @@ section>div {
     display: inline-block;
     width: 100vw;
 }
-
+p {
+    text-align: justify;
+    padding: 0px 20px 0px 10px;
+}
 video {
     max-width: 100%;
     height: auto;
@@ -135,6 +136,50 @@ video {
     top:150px;
 }
 
+.inln {
+    display: inline-block;
+    max-width: 60vw;
+}
+
+.icon {
+    max-height: 100px;
+}
+
+.heading {
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+.goldenratio-height {
+    max-height: 22vw;
+}
+.AuDiv {
+    position: relative;
+    display: inline-block;
+    max-height: inherit;
+    height: auto;
+    left: 1vw;
+}
+.ratio1of2 {
+    max-width: 45vw;
+    padding: 2vw;
+}
+.ratio1of3 {
+    width: 33vw;
+}
+.ratio2of3 {
+    width: auto;
+}
+.AuDiv > img {
+    position: relative;
+    max-height: inherit;
+    left: 0px;
+}
+.img1of2 {
+    left:0px;
+    max-width: inherit;
+}
+/*
 .w320 {
     position: relative;
     display: inline-block;
@@ -169,22 +214,7 @@ a {
     text-decoration: none;
 }
 
-.inln {
-    /*position: relative;*/
-    display: inline-block;
-    max-width: 30vw;
-    /*max-height: 300px;*/
-}
 
-.icon {
-    max-height: 100px;
-}
-
-.heading {
-    position: absolute;
-    left: 220px;
-    top: 20px;
-}
 
 div>img .inln {
     left: -10px;
@@ -250,9 +280,9 @@ img~video .inln {
     max-height: 500px;
     max-width: 40vw;
 }
-
+*/
 /* footer */
-
+/*
 footer div {
     position: relative;
     display: inline-block;
@@ -260,9 +290,9 @@ footer div {
     z-index: 999;
     color: #014901;
 }
+*/
 
-
-
+/*
 @media screen and (max-width: 520px) {
     nav {
         max-width: 30vw;
@@ -347,3 +377,4 @@ footer div {
         max-width: 65vw;
     }
 }
+*/

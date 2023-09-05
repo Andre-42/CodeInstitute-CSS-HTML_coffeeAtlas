@@ -12,10 +12,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- Fontawesom -->
+    <script src="https://kit.fontawesome.com/facb0ba5ba.js" crossorigin="anonymous"></script>
     <!-- JS function -->
     <script>
         function jsDropDown(imgid, newimg) {
-            document.getElementById(imgid).src = "assets/images/IR/daf46/" + newimg;
+            document.getElementById(imgid).src = "assets/images/ir/daf46/" + newimg;
         }
     </script>
 </head>
@@ -90,7 +92,7 @@
             </span>
         </div>
     </section> 
-    <section class="below-header dark">
+    <div class="below-header dark">
         <section>
             <h3 id="problems">So much can go wrong!</h3>
             <p>
@@ -193,7 +195,7 @@
                 be seen on the branches, starting at the spots where leaves have fallen.
             </p>
         </section>
-    </section>
+    </div>
     <section class="below-header">
 
         <h3 id="starvation">It all comes down to starvation!</h3>
@@ -236,15 +238,15 @@
                     </td>
                 </tr>
                 <tr>
-                    <div>
+                    <td>
                         <img class="DDimg" src="assets/images/ir/daf46/kh-storage48.png" id="imgid" alt="metabolite image">
-                    </div>
+                    </td>
                 </tr>
             </table>
         </div>
     </section>
     <section class="below-header dark">
-        <h3 id="feedpath">So how does the seed gets its food delivery?</h3>
+        <h3 id="feedpaths">So how does the seed gets its food delivery?</h3>
         <p>
             As you can see this data about the failed seed indicates that some mechanism stopped nutrient supply to the
             seed. The transport sugras tell us that there is none delivered to the failed seed or can not be
@@ -264,23 +266,48 @@
             control.
         </p>
     </section>
-    <hr>
     <footer>
-        <div>
-            <span>
-                <a id="contact" href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </span>
-            <span>
-                <a href="https://linkedin.com" target="_blank" rel="noopener"
-                    aria-label="Visit our LinkedIN page (opens in a new tab)"><i
-                        class="fa-brands fa-linkedin"></i></i></a>
-            </span>
-            <span>
-                <a href="https://researchgate.com" target="_blank" rel="noopener"
-                    aria-label="Visit our ResearchGate page (opens in a new tab)"><i
-                        class="fa-brands fa-linkedin"></i></a>
-            </span>
+        <div id="contact">
+            <p>
+                <strong>You want to help make this page a true scientific repository?... Find me on:</strong> 
+            </p>
+            <div>
+                
+                <span>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-g%C3%BCndel-012b57175/" target="_blank" rel="noopener"
+                        aria-label="Visit our LinkedIN page (opens in a new tab)">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <strong> linkedIN </strong>
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.researchgate.net/profile/Andre-Guendel-2" target="_blank" rel="noopener"
+                        aria-label="Visit our ResearchGate page (opens in a new tab)">
+                        <i class="fa-brands fa-researchgate"></i>
+                        <strong> researchgate </strong>
+                    </a>
+                </span>
+                <span>
+                    <a href="https://github.com/Andre-42" target="_blank" rel="noopener"
+                        aria-label="Visit my Github page (opens in a new tab)">
+                        <i class="fa-brands fa-github"></i>
+                        <strong> Github </strong>
+                    </a>
+                </span>
+            </div>
+            <div>
+                <p><strong>Want to collaborate in the field of chemical imaging in plant science?</strong></p>
+                <p>
+                    <strong>
+                        The research group AAN at the IPK&nbsp;
+                        <a id="ipk" href="https://www.ipk-gatersleben.de/forschung/molekulare-genetik/assimilat-allokation-und-nmr" target="_blank" rel="noopener"
+                            aria-label="Visit the IPK page (opens in a new tab)">
+                            IPK <img src="assets/images/ipk80_logo_white_invers.png" alt="IPK homepage">
+                        </a>
+                        &nbsp;may be interesting for you to contact
+                    </strong>
+                </p>
+            </div>
         </div>
     </footer>
 </body>

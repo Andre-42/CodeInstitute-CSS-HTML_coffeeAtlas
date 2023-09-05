@@ -49,10 +49,9 @@ h2 {
 }
 
 .navbar a {
-    color: white;
+    color: whitesmoke;
     display: block;
     text-align: center;
-    text-decoration: none;
 }
 
 nav div>div {
@@ -73,6 +72,9 @@ nav div>div {
 
 .actual:hover .sub {
     display: block;
+}
+a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -103,21 +105,13 @@ img {
     object-fit: scale-down;
 }
 
-section {
+section, div {
     position: relative;
     /*top: 150px;*/
 }
-/*section>section {
+
+section > p {
     position: relative;
-}
-*/
-section > section > p {
-    position: relative;
-    /*top: 100px;
-}
-h3 + p {
-    top: 0px;
-    z-index: 5;*/
 }
 section>div {
     position: relative;
@@ -282,16 +276,46 @@ img~video .inln {
 }
 */
 /* footer */
-/*
-footer div {
-    position: relative;
-    display: inline-block;
-    height: 150px;
-    z-index: 999;
-    color: #014901;
-}
-*/
 
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #014901;
+    color: whitesmoke;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+    background-image: url("../images/coffee-bean-1637878.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+}
+footer > div > div {
+    text-align: justify;
+    width: 100%;
+}
+footer span{
+    display: inline-block;
+    width: 20vw;
+    text-align: center;
+}
+
+footer a {
+    color: whitesmoke;
+}
+.txtleft {
+    text-align: left;
+}
+#ipk {
+    width: 70px;
+    display: inline-block;
+}
+footer img {
+    max-height: 20px;
+}
+i {
+    color: whitesmoke
+}
 /*
 @media screen and (max-width: 520px) {
     nav {

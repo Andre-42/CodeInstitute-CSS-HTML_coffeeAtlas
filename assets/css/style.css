@@ -111,13 +111,16 @@ section {
     position: relative;
 }
 */
-section>p {
+section > section > p {
     text-align: justify;
     padding: 0px 20px 0px 10px;
     position: relative;
-    top: 100px;
+    /*top: 100px;
 }
-
+h3 + p {
+    top: 0px;
+    z-index: 5;*/
+}
 section>div {
     position: relative;
     display: inline-block;

@@ -64,12 +64,19 @@ nav div>div {
 .actual>a~a {
     display: none;
     font-size: smaller;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 10.5s linear;
 }
 
 .bld {
     font-style: bold;
 }
 
+.actual:hover>a~a {
+    visibility: visible;
+    opacity: 1;
+}
 .actual:hover .sub {
     display: block;
 }
@@ -116,7 +123,10 @@ section > p {
 section>div {
     position: relative;
     display: inline-block;
-    width: 100vw;
+    width: 100%;
+}
+h3 {
+    padding-left:10px;
 }
 p {
     text-align: justify;
@@ -155,7 +165,7 @@ video {
     left: 1vw;
 }
 .ratio1of2 {
-    max-width: 45vw;
+    width: 45vw;
     padding: 2vw;
 }
 .ratio1of3 {
@@ -170,8 +180,24 @@ video {
     left: 0px;
 }
 .img1of2 {
-    left:0px;
-    max-width: inherit;
+    display: block;
+    left: 0px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.img-to-wrap {
+    float: left;
+    margin-top: 0.5em;
+    padding-right: 20px;
+}
+.wrap {
+    position: relative;
+    margin-block-start: 0px;
 }
 /*
 .w320 {
@@ -278,8 +304,8 @@ img~video .inln {
 /* footer */
 
 footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: -160px;
     width: 100%;
     background-color: #014901;
     color: whitesmoke;
@@ -307,7 +333,7 @@ footer a {
     text-align: left;
 }
 #ipk {
-    width: 70px;
+    width: 80px;
     display: inline-block;
 }
 footer img {

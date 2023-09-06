@@ -413,6 +413,55 @@ i {
         font-size: smaller;
         text-align:center;
     }
+    .actual .sub {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        text-align: center;
+    }
+    nav #actual {
+        background-color: #016401;
+    }
+    /*
+    .actual a:visited{
+        text-decoration: underline;
+        background-color: #016401;
+        z-index: 40;
+
+        .actual>a~a {
+            display:block;
+            position:relative;
+            visibility: visible;
+            opacity: 1;
+        }
+        .actual .sub {
+            display: block;
+        }
+    }
+    .touch-hover {
+        .actual>a~a {
+            visibility: visible;
+            opacity: 1;
+        }
+        .actual .sub {
+            display: block;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        .navbar a {
+            text-decoration: underline;
+            background-color: #016401;
+            z-index: 40;
+        }
+        
+        nav div>div {
+            background-color: #016401;
+            z-index: 30;
+        }
+        
+    }*/
 }
 /*    nav {
         max-width: 30vw;

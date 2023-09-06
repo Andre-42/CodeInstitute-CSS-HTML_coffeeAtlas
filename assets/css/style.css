@@ -138,6 +138,10 @@ video {
     max-width: 100%;
     height: auto;
 }
+p>a {
+    display: inline-block;
+    width: 80px;
+}
 .below-header {
     top:150px;
 }
@@ -201,9 +205,15 @@ video {
     position: relative;
     margin-block-start: 0px;
 }
+.fonticon {
+    max-height: 20px;
+}
 #coffee-yellow {
     display: block;
     max-height:300px;
+}
+#dev-seed {
+    display: block;
 }
 /*
 .w320 {

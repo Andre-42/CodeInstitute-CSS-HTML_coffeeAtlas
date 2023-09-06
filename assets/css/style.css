@@ -57,6 +57,8 @@ h2 {
 nav div>div {
     display: inline-block;
     vertical-align: top;
+    text-align: center;
+    width: 170px;
     padding: 0px 20px 0px 20px;
     z-index: 10;
 }
@@ -165,7 +167,7 @@ video {
     left: 1vw;
 }
 .ratio1of2 {
-    width: 45vw;
+    width: 44vw;
     padding: 2vw;
 }
 .ratio1of3 {
@@ -198,6 +200,10 @@ video {
 .wrap {
     position: relative;
     margin-block-start: 0px;
+}
+#coffee-yellow {
+    display: block;
+    max-height:300px;
 }
 /*
 .w320 {

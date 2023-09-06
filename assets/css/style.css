@@ -130,6 +130,15 @@ section>div {
 h3 {
     padding-left:10px;
 }
+/* create space so that linked content is not hidden behind the header */
+/* source: https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/62693578#62693578 */
+h3::before {
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 160px;      /* this is the height of your header */
+    margin-top: -160px; /* this is the height of your header, negated */
+}
 p {
     text-align: justify;
     padding: 0px 20px 0px 10px;
@@ -141,6 +150,24 @@ video {
 p>a {
     display: inline-block;
     width: 80px;
+}
+.fa-caret-up {
+    color:#014901;
+    width: 30px;
+    text-align:center;
+}
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #9ACD32;
+    opacity: 0.5;
+    z-index: 50;
+}
+.go-to-top:hover {
+    cursor: pointer;
+    opacity:0.8;
+    border-radius:15px;
 }
 .below-header {
     top:150px;

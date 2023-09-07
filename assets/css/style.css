@@ -81,9 +81,11 @@ nav div>div {
     visibility: visible;
     opacity: 1;
 }
-.actual:blur>a~a {
-    visibility: hidden;
-    opacity: 0;
+.section:hover{
+    .actual>a~a {
+        visibility: hidden;
+        opacity: 0;
+    }
 }
 .actual:hover .sub {
     display: block;

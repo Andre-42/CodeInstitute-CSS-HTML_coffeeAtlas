@@ -7,6 +7,7 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: #ecfdcc;
+    color:#014901;
 }
 
 /*Header config*/
@@ -128,6 +129,9 @@ section>div {
     display: inline-block;
     width: 100%;
 }
+section a {
+    color:#014901;
+}
 h3 {
     padding-left:10px;
 }
@@ -241,6 +245,7 @@ p>a {
     position: relative;
     margin-block-start: 0px;
 }
+
 .fonticon {
     max-height: 20px;
 }
@@ -252,7 +257,10 @@ p>a {
     display: block;
     max-width: 100%;
 }
-
+#flower2seed~div {
+    object-fit: contain;
+    margin-right: 30px;
+}
 /* footer */
 
 footer {
@@ -288,9 +296,7 @@ footer a {
     width: 80px;
     display: inline-block;
 }
-footer img {
-    max-height: 20px;
-}
+
 i {
     color: whitesmoke
 }
@@ -339,15 +345,16 @@ i {
         padding-inline-start: 30px;
         padding-inline-end: 20px;
     }
+    p>a {
+        width:50px;
+    }
     footer {
         font-size: xx-small;
     }
     footer p~p {
         padding-right:60px;
     }
-    footer img {
-        max-height: 10px;
-    }
+    
     .below-header {
         top: 110px;
     }
@@ -403,6 +410,9 @@ i {
         left: -5%;
         max-height: 100%;
     }
+    .fonticon {
+        max-height: 10px;
+    }
     #flower2seed~div {
         object-fit: contain;
         margin-right: 30px;
@@ -452,6 +462,9 @@ i {
     ol {
         padding-inline-start: 30px;
         padding-inline-end: 20px;
+    }
+    p>a {
+        width:50px;
     }
     footer {
         font-size: xx-small;
@@ -511,6 +524,9 @@ i {
     .crop-frame > img, #coffee-yellow {
         left: -32%;
         max-height: 100%;
+    }
+    .fonticon {
+        max-height:10px;
     }
     #flower2seed~div {
         object-fit: contain;

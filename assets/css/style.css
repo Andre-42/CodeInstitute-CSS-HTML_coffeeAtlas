@@ -326,6 +326,10 @@ i {
         margin-left: 80px;
         font-size: 90%;
     }
+    h3::before {
+        height: 118px;      /* this is the height of your header */
+        margin-top: -118px; /* this is the height of your header, negated */
+    }
     h3, h4 {
         padding-right: 10px;
     }
@@ -338,6 +342,12 @@ i {
     }
     footer p~p {
         padding-right:60px;
+    }
+    footer img {
+        max-height: 10px;
+    }
+    .below-header {
+        top: 110px;
     }
     .goldenratio-height {
         max-height: 75%;
@@ -399,6 +409,9 @@ i {
         width: 600px;
         content: url("../images/coffe-dev2.png");
     }
+    #ipk {
+        width:50px;
+    }
 }
 
 @media screen and (max-width: 290px) {
@@ -428,6 +441,10 @@ i {
         margin-left: 80px;
         font-size: 90%;
     }
+    h3::before {
+        height: 118px;      /* this is the height of your header */
+        margin-top: -118px; /* this is the height of your header, negated */
+    }
     h3, h4 {
         padding-right: 10px;
     }
@@ -440,6 +457,9 @@ i {
     }
     footer p~p {
         padding-right:60px;
+    }
+    .below-header {
+        top: 110px;
     }
     .goldenratio-height {
         max-height: 75%;

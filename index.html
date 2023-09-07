@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Fontawesom -->
     <script src="https://kit.fontawesome.com/facb0ba5ba.js" crossorigin="anonymous"></script>
+    <!-- JS functions -->
     <script>
         function showNoShow() {
             const classList = ["ch-01","ch-02"];
@@ -46,19 +47,17 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header class="yellow-stg">
         <div>
             <h1>The Plant Atlas</h1>
             <h2>Seeing Coffee through the chemical Eye.</h2>
         </div>
     </header>
-
+    <!-- Navigation Bar -->
     <nav>
         <div class="navbar">
             <div id="actual" class="n1 actual">
-                <!--a href="index.html">
-                    <p class="bld actual">main</p>
-                </a-->
                 <button onclick=showNoShow() class="openBtn bld actual">
                     main <i id="actual-down" class="fa-solid fa-caret-down"></i>
                     <i id="actual-up" class="fa-solid fa-caret-up"></i>
@@ -74,72 +73,68 @@
             </div>
 
             <div class="n3">
-                <!--a href="seed-abort.html">
-                    <p class="bld">a failed seed</p>
-                </a-->
                 <button onclick="window.location.href='seed-abort.html';" class="bld">a failed seed</button>
             </div>
 
             <div class="Contact">
-                <!--a href="#contact">
-                    <p class="bld">contact</p>
-                </a-->
                 <button onclick="window.location.href='#contact';" class="bld">contact</button>
             </div>
         </div>
     </nav>
-
-    <section class="below-header">
-        <h3 id="yourcup">How long does it take to make a cup of coffee?</h3>
-        <p>
-            I guess you would say: "A couple of minutes at my local coffee house."
-            What if I told you it takes about a year from a blossoming coffee tree until you have your roasted coffee
-            beans in the coffee machine to brew your coffee. Making coffee is a lengthy process:
-        </p>
-        <ol>
-            <li>growing the actual tree... up to 6 years</li>
-            <li>flowering, seed growth, and maturation... up to 10 months</li>
-            <li>harvesting and drying the seeds... up to a month or two</li>
-            <li>shipping / storage</li>
-            <li>roasting... about 15-20 min</li>
-            <li>brewing... 5 mins tops</li>
-        </ol>
-        <p>
-            Coffee development is a complex and fascinating journey that starts with the cultivation of coffee beans and encompasses various stages until it reaches your cup. It begins on coffee farms around the world, where coffee cherries are carefully grown, harvested, and processed. After harvesting, the beans undergo a series of steps, including drying, milling, and roasting, which greatly influence the coffee's flavor and aroma. Coffee development also involves blending and brewing methods, with baristas and coffee enthusiasts continuously experimenting to create the perfect cup. This intricate process, influenced by geography, climate, and human expertise, contributes to the rich and diverse world of coffee that we enjoy today.
-        </p>
-    </section>
-    <section class="below-header">
-        <div>
-            <div class="crop-frame">
-                <img class="center" id="coffee-yellow" src="assets/images/coffee-bean-1637878.jpg" alt="Image of a coffee cherry.">
-            </div>
+    <!-- main section -->
+    <main>
+        <section class="below-header">
+            <h3 id="yourcup">How long does it take to make a cup of coffee?</h3>
+            <p>
+                I guess you would say: "A couple of minutes at my local coffee house."
+                What if I told you it takes about a year from a blossoming coffee tree until you have your roasted coffee
+                beans in the coffee machine to brew your coffee. Making coffee is a lengthy process:
+            </p>
+            <ol>
+                <li>growing the actual tree... up to 6 years</li>
+                <li>flowering, seed growth, and maturation... up to 10 months</li>
+                <li>harvesting and drying the seeds... up to a month or two</li>
+                <li>shipping / storage</li>
+                <li>roasting... about 15-20 min</li>
+                <li>brewing... 5 mins tops</li>
+            </ol>
+            <p>
+                Coffee development is a complex and fascinating journey that starts with the cultivation of coffee beans and encompasses various stages until it reaches your cup. It begins on coffee farms around the world, where coffee cherries are carefully grown, harvested, and processed. After harvesting, the beans undergo a series of steps, including drying, milling, and roasting, which greatly influence the coffee's flavor and aroma. Coffee development also involves blending and brewing methods, with baristas and coffee enthusiasts continuously experimenting to create the perfect cup. This intricate process, influenced by geography, climate, and human expertise, contributes to the rich and diverse world of coffee that we enjoy today.
+            </p>
+        </section>
+        <section class="below-header">
             <div>
-                <h3 id="flower2seed">From Flower to Seed</h3>
-                <p>
-                    It is a long way from a blossoming coffee flower to the ripe fruit. Over ten months, the seed undergoes multiple changes to develop the basis for the roasted coffee flavors we love so much. This remarkable journey begins with the delicate white flowers that adorn coffee trees, giving way to green, unripe cherries. As the months pass, these cherries slowly transition to a vibrant red or yellow hue, signifying their ripeness. The crucial moment arrives when skilled hands pick these ripe cherries, ensuring that only the finest are selected.
-                </p>
-                <div>
-                    <img id="dev-seed" class="center" src="assets/images/coffee-development.png"
-                            alt="Coffee beans at different stages of development.">
-                    
+                <div class="crop-frame">
+                    <img class="center" id="coffee-yellow" src="assets/images/coffee-bean-1637878.jpg" alt="Image of a coffee cherry.">
                 </div>
-                <p>
-                    Following harvest, the cherries undergo meticulous processing, which can involve methods like wet or dry fermentation to remove the pulp and reveal the precious coffee beans inside. Once extracted, these beans are dried and hulled, ready to embark on their voyage through the roasting process, where they transform into the aromatic and flavorful coffee beans cherished by coffee connoisseurs worldwide. This journey from flower to ripe seed is a testament to the intricate and artful development of coffee.
-                </p>
-                <p>
-                    If you are interested to see what happens chemically when something goes wrong. 
-                    Click <a href="seed-abort.html">here<img class="fonticon" src="assets/images/bad-coffee.png" alt=""> </a>
-                     and you will be able to see through the eyes of MRI and chemical imaging... 
-                </p>
+                <div>
+                    <h3 id="flower2seed">From Flower to Seed</h3>
+                    <p>
+                        It is a long way from a blossoming coffee flower to the ripe fruit. Over ten months, the seed undergoes multiple changes to develop the basis for the roasted coffee flavors we love so much. This remarkable journey begins with the delicate white flowers that adorn coffee trees, giving way to green, unripe cherries. As the months pass, these cherries slowly transition to a vibrant red or yellow hue, signifying their ripeness. The crucial moment arrives when skilled hands pick these ripe cherries, ensuring that only the finest are selected.
+                    </p>
+                    <div>
+                        <img id="dev-seed" class="center" src="assets/images/coffee-development.png"
+                                alt="Coffee beans at different stages of development.">
+                        
+                    </div>
+                    <p>
+                        Following harvest, the cherries undergo meticulous processing, which can involve methods like wet or dry fermentation to remove the pulp and reveal the precious coffee beans inside. Once extracted, these beans are dried and hulled, ready to embark on their voyage through the roasting process, where they transform into the aromatic and flavorful coffee beans cherished by coffee connoisseurs worldwide. This journey from flower to ripe seed is a testament to the intricate and artful development of coffee.
+                    </p>
+                    <p>
+                        If you are interested to see what happens chemically when something goes wrong. 
+                        Click <a href="seed-abort.html">here<img class="fonticon" src="assets/images/bad-coffee.png" alt=""> </a>
+                        and you will be able to see through the eyes of MRI and chemical imaging... 
+                    </p>
+                </div>
             </div>
+        </section>
+        <div class="go-to-top">
+            <a href="#top" aria-label="top">
+                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+            </a>
         </div>
-    </section>
-    <div class="go-to-top">
-        <a href="#top" aria-label="top">
-            <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
-        </a>
-    </div>
-    
+    </main>
+    <!-- Footer -->
     <footer>
         <div id="contact">
             <p>

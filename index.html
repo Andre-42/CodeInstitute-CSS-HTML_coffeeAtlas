@@ -29,10 +29,16 @@
                     document.getElementById(element).style.display = "block";
                     document.getElementById(element).style.visibility = "visible";
                     document.getElementById(element).style.opacity = "1";
+                    document.getElementById("actual").style.backgroundColor = "#016401";
+                    document.getElementById("actual-up").style.display = "inline-block";
+                    document.getElementById("actual-down").style.display = "none";
                 } else {
                     document.getElementById(element).style.display = "none";
                     document.getElementById(element).style.visibility = "hidden";
                     document.getElementById(element).style.opacity = "0";
+                    document.getElementById("actual").style.backgroundColor = "#9ACD32";
+                    document.getElementById("actual-up").style.display = "none";
+                    document.getElementById("actual-down").style.display = "inline-block";
                 }
             };
         }
@@ -54,8 +60,8 @@
                     <p class="bld actual">main</p>
                 </a-->
                 <button onclick=showNoShow() class="openBtn bld actual">
-                    main <i class="fa-solid fa-caret-down"></i>
-                    <i class="fa-solid fa-caret-up"></i>
+                    main <i id="actual-down" class="fa-solid fa-caret-down"></i>
+                    <i id="actual-up" class="fa-solid fa-caret-up"></i>
                 </button>
 
                 <a id="ch-01" class="sub" href="#yourcup">

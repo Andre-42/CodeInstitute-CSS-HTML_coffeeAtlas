@@ -78,6 +78,13 @@ button {
     font-size: inherit;
     margin-bottom: 10px;
 }
+div .actual {
+    background-color: #9ACD32;
+    z-index: 20;
+}
+.sub {
+    background-color: #016401;
+}
 .actual>button~a {
     display: none;
     font-size: smaller;
@@ -99,11 +106,6 @@ button {
 
 a {
     text-decoration: none;
-}
-
-div .actual {
-    background-color: #9ACD32;
-    z-index: 20;
 }
 
 /* paragraph styling*/

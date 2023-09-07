@@ -212,6 +212,7 @@ p>a {
 .AuDiv > img {
     position: relative;
     max-height: inherit;
+    width: 100%;
     left: 0px;
 }
 .img1of2 {
@@ -246,6 +247,7 @@ p>a {
 }
 #dev-seed {
     display: block;
+    max-width: 100%;
 }
 
 /* footer */
@@ -389,26 +391,19 @@ i {
         left: -5%;
         max-height: 100%;
     }
-    .rotation {
-        position:relative;
-        display:block;
-        width: 100%;
-        height: 600px;
-    }
-    .rotation > img {
-        position:relative;
-        rotate: 90deg;
-        left: -52%;
-    top: 220px;
+    #flower-2-seed~div {
+        object-fit: contain;
+        margin-right: 30px;
     }
     #dev-seed {
         width: 600px;
+        content: url("../images/coffe-dev2.png");
     }
 }
 
 @media screen and (max-width: 290px) {
     .navbar {
-        margin: 164px 0px 0px 0px;
+        margin: 118px 0px 0px 0px;
         width: 80px;
         position: fixed;
         top: 0px;
@@ -495,18 +490,6 @@ i {
     .crop-frame > img, #coffee-yellow {
         left: -32%;
         max-height: 100%;
-    }
-    .rotation {
-        position:relative;
-        display:block;
-        width: 100%;
-        height: 300px;
-    }
-    .rotation > img {
-        position:relative;
-        rotate: 90deg;
-        left: -25%;
-        top: 110px;
     }
     #dev-seed {
         width: 300px;

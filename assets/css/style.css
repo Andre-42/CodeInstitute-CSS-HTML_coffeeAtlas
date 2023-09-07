@@ -205,7 +205,6 @@ p>a {
     display: inline-block;
     max-height: inherit;
     height: auto;
-    left: 1vw;
 }
 .ratio1of2 {
     width: 44vw;
@@ -213,6 +212,7 @@ p>a {
 }
 .ratio1of3 {
     width: 33vw;
+    margin-left: 2%;
 }
 .ratio2of3 {
     width: auto;
@@ -348,7 +348,7 @@ i {
     }
     .navbar {
         margin: 118px 0px 0px 0px;
-        width: 80px;
+        width: 83px;
         position: fixed;
         top: 0px;
     }
@@ -401,9 +401,11 @@ i {
     .ratio1of3 {
         width: auto;
         margin-right: 20px;
+        margin-left: 5px;
     }
     .ratio2of3 {
         margin-right: 20px;
+        margin-left: 5px;
         width: auto;
     }
     .icon {
@@ -466,7 +468,7 @@ i {
 @media screen and (max-width: 290px) {
     .navbar {
         margin: 118px 0px 0px 0px;
-        width: 80px;
+        width: 82px;
         position: fixed;
         top: 0px;
     }
@@ -518,9 +520,11 @@ i {
     .ratio1of3 {
         width: auto;
         margin-right: 20px;
+        margin-left: 5px;
     }
     .ratio2of3 {
         margin-right: 20px;
+        margin-left: 5px;
     }
     .icon {
         max-height: 100px;

@@ -97,42 +97,8 @@ button {
     text-align: center;
 }
 
-.actual:hover>button~a {
-    visibility: visible;
-    opacity: 1;
-}
-button:active > button~a {
-    visibility: visible;
-    opacity: 1;
-    background-color:#014901;
-}
-
-.actual:hover .sub {
-    display: block;
-}
-.actual:hover .fa-caret-down {
-    display: none;
-}
-.actual:hover .fa-caret-up {
-    display: inline-block;
-}
 a {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-    background-color: #016401;
-    z-index: 40;
-}
-
-nav div>div:hover {
-    background-color: #016401;
-    z-index: 30;
 }
 
 div .actual {
@@ -141,13 +107,7 @@ div .actual {
 }
 
 /* paragraph styling*/
-.section:active{
-    background-color:white;
-    .actual>a~a {
-        visibility: hidden;
-        opacity: 0;
-    }
-}
+
 img {
     position: relative;
     left: 10px;
@@ -338,6 +298,42 @@ footer a {
 
 i {
     color: whitesmoke
+}
+/* hover functions */
+@media (hover:hover) {
+    .actual:hover>button~a {
+        visibility: visible;
+        opacity: 1;
+    }
+    .actual:hover .sub {
+        display: block;
+    }
+    .actual:hover .fa-caret-down {
+        display: none;
+    }
+    .actual:hover .fa-caret-up {
+        display: inline-block;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+        background-color: #016401;
+        z-index: 40;
+    }
+    nav div>div:hover {
+        background-color: #016401;
+        z-index: 30;
+    }
+}
+/* hoverless media */
+@media (hover:none) {
+    button:active > button~a {
+        visibility: visible;
+        opacity: 1;
+        background-color:#014901;
+    }
 }
 
 @media screen and (max-width: 640px) {

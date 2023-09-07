@@ -17,7 +17,25 @@
     <!-- Fontawesom -->
     <script src="https://kit.fontawesome.com/facb0ba5ba.js" crossorigin="anonymous"></script>
     <script>
-        
+        function showNoShow() {
+            const classList = ["ch-01","ch-02"];
+            console.log(classList)
+            let elementOne = classList[0];
+            vis = document.getElementById(elementOne).style.visibility;
+            console.log(vis)
+            for (let i = 0; i < classList.length; i++) {
+                let element = classList[i];
+                if (vis === "hidden" || vis === "") {
+                    document.getElementById(element).style.display = "block";
+                    document.getElementById(element).style.visibility = "visible";
+                    document.getElementById(element).style.opacity = "1";
+                } else {
+                    document.getElementById(element).style.display = "none";
+                    document.getElementById(element).style.visibility = "hidden";
+                    document.getElementById(element).style.opacity = "0";
+                }
+            };
+        }
     </script>
 </head>
 
@@ -32,30 +50,35 @@
     <nav>
         <div class="navbar">
             <div id="actual" class="n1 actual">
-                <a href="index.html">
+                <!--a href="index.html">
                     <p class="bld actual">main</p>
-                </a>
+                </a-->
+                <button onclick=showNoShow() class="openBtn bld actual">
+                    main <i class="fa-solid fa-caret-down"></i>
+                    <i class="fa-solid fa-caret-up"></i>
+                </button>
 
-                <a class="sub" href="#yourcup">
+                <a id="ch-01" class="sub" href="#yourcup">
                     <p>just a cup</p>
                 </a>
-                <a class="sub" href="#flower2seed">
+                <a id="ch-02" class="sub" href="#flower2seed">
                     <p>flower to bean</p>
                 </a>
 
             </div>
 
             <div class="n3">
-                <a href="seed-abort.html">
+                <!--a href="seed-abort.html">
                     <p class="bld">a failed seed</p>
-                </a>
-
+                </a-->
+                <button onclick="window.location.href='seed-abort.html';" class="bld">a failed seed</button>
             </div>
 
             <div class="Contact">
-                <a href="#contact">
+                <!--a href="#contact">
                     <p class="bld">contact</p>
-                </a>
+                </a-->
+                <button onclick="window.location.href='#contact';" class="bld">contact</button>
             </div>
         </div>
     </nav>

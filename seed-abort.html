@@ -19,6 +19,25 @@
         function jsDropDown(imgid, newimg) {
             document.getElementById(imgid).src = "assets/images/ir/daf46/" + newimg;
         }
+        function showNoShow() {
+            const classList = ["ch-11","ch-12","ch-13","ch-14"];
+            console.log(classList)
+            let elementOne = classList[0];
+            vis = document.getElementById(elementOne).style.visibility;
+            console.log(vis)
+            for (let i = 0; i < classList.length; i++) {
+                let element = classList[i];
+                if (vis === "hidden" || vis === "") {
+                    document.getElementById(element).style.display = "block";
+                    document.getElementById(element).style.visibility = "visible";
+                    document.getElementById(element).style.opacity = "1";
+                } else {
+                    document.getElementById(element).style.display = "none";
+                    document.getElementById(element).style.visibility = "hidden";
+                    document.getElementById(element).style.opacity = "0";
+                }
+            };
+        }
     </script>
 </head>
 
@@ -32,34 +51,40 @@
     <nav>
         <div class="navbar">
             <div class="n1">
-                <a class="bld" href="index.html">
+                <!--a class="bld" href="index.html">
                     <p class="bld">main</p>
-                </a>
+                </a-->
+                <button onclick="window.location.href='index.html';" class="bld">main</button>
             </div>
 
             <div id="actual" class="n3 actual">
-                <a href="seed-abort.html">
+                <!--<a href="seed-abort.html">
                     <p class="bld actual">a failed seed</p>
-                </a>
+                </a>-->
+                <button onclick=showNoShow() class="openBtn bld actual">
+                    a failed seed <i class="fa-solid fa-caret-down"></i>
+                    <i class="fa-solid fa-caret-up"></i>
+                </button>
 
-                <a class="sub" href="#structure">
+                <a id="ch-11" class="sub" href="#structure">
                     <p>the cherry</p>
                 </a>
-                <a class="sub" href="#problems">
+                <a id="ch-12" class="sub" href="#problems">
                     <p>its challenges</p>
                 </a>
-                <a class="sub" href="#starvation">
+                <a id="ch-13" class="sub" href="#starvation">
                     <p>starvation</p>
                 </a>
-                <a class="sub" href="#feedpaths">
+                <a id="ch-14" class="sub" href="#feedpaths">
                     <p>the nutrional highway</p>
                 </a>
             </div>
 
             <div class="Contact">
-                <a href="#contact">
+                <!--a href="#contact">
                     <p class="bld">contact</p>
-                </a>
+                </a-->
+                <button onclick="window.location.href='#contact';" class="bld">contact</button>
             </div>
         </div>
     </nav>

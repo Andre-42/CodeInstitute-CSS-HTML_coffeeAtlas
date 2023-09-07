@@ -144,6 +144,9 @@ p {
     text-align: justify;
     padding: 0px 20px 0px 10px;
 }
+.sub > p {
+    text-align:center;
+}
 video {
     max-width: 100%;
     height: auto;
@@ -311,7 +314,6 @@ i {
         width: 80px;
         z-index: 10;
         font-size: smaller;
-        text-align:center;
     }
     .actual .sub {
         display: block;
@@ -426,7 +428,6 @@ i {
         width: 80px;
         z-index: 10;
         font-size: smaller;
-        text-align:center;
     }
     .actual .sub {
         display: block;

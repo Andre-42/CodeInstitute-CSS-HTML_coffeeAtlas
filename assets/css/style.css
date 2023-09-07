@@ -401,7 +401,7 @@ i {
         left: -5%;
         max-height: 100%;
     }
-    #flower-2-seed~div {
+    #flower2seed~div {
         object-fit: contain;
         margin-right: 30px;
     }
@@ -510,6 +510,10 @@ i {
     .crop-frame > img, #coffee-yellow {
         left: -32%;
         max-height: 100%;
+    }
+    #flower2seed~div {
+        object-fit: contain;
+        margin-right: 30px;
     }
     #dev-seed {
         width: 300px;

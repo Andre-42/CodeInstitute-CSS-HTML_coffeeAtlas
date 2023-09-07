@@ -339,12 +339,22 @@ i {
 }
 
 @media screen and (max-width: 640px) {
-    
+    nav div>div {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 25vw;
+        padding: 0px 20px 0px 20px;
+        z-index: 10;
+    }
 }
 
 @media screen and (max-width: 520px) {
     body {
         font-size:smaller;
+    }
+    header {
+        height: 118px;
     }
     .navbar {
         margin: 118px 0px 0px 0px;

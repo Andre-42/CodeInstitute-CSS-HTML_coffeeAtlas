@@ -50,3 +50,114 @@ In my css file I used the following colors to represent that theme:
 * The current button/menu segment of the navbar that represents the html that is currently visited is highlighted in '#9ACD32'.
 * The alternative text color used on dark backgrounds is '#f5f5f5'.
 
+### Typography
+
+Google Fonts was used for the primary font Quicksand. Backup fonts are Verdana and Times New Roman. The entire text is held in Quicksand.
+
+### Imagery
+
+Content images come from my research data on coffee imaging which was produced at the IPK (https://www.ipk-gatersleben.de/). This data was presented at the XIV Symposium of Plant Biotechnology by me:
+* A. Guendel, S. Wagner, Ortleb, S. Kalms, L., H. Rolletschek and L. Borisjuk; Investigation of early seed development in Coffea arabica using nuclear magnetic resonance (MRI) and infrared imaging. XIV Symposium on Plant Biotechnology, Cayo Santa Maria, Cuba, 2022
+
+### Features
+
+The website is comprised of a home page and a secondary page with content regarding the coffee seed in context of plant diseases.
+
+All pages are responsive and have:
+
+* A favicon in the browser tab.
+* The main title in the header and a responsive navigation bar under the header or on left the side of the page.
+* The footer acts as a contact section with links to external sites to get in touch with me or the IPK. The footer can be reach by clicking the contact button at the navbar.
+* The lower right corner of the page holds a link icon which takes you back to the top of the page.
+* The curser changes in response to hovering above links, buttons and selection items. 
+* The navbar has dropdown functionality for hovering on desktop screens (see style.css file). Hover functions are switched off (see style.css file) for touchscreen users and JS was implemented to imitate dropdown functionality on touch devices.
+
+#### The Home Page
+
+
+#### The Aborted Seed Page
+
+
+#### Future Implementations
+
+
+### Accessibility
+
+I have been mindful to improve accessibility after first deployment and project submission to my study accessment.
+
+This has been achieved by:
+* Using semantic HTML e.g., header, main, section, footer, etc.
+* Using hover functionality on interactive content and employing alternative means for touchscreen usage
+* Choosing a simple font style for better readability
+* Using contrasting colors as best as possible between background and text within the given color scheme.
+
+
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Plant Atlas](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas](https://github.com/Andre-42/CodeInstitute-CSS-HTML_coffeeAtlas/)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+### HTML validator
+
+![nu HTML validator](documentation/html-validation.png)
+The HTML content was validated by nu validator (https://validator.w3.org/#validate_by_uri).
+
+### CSS validator
+
+![W3C css validator](documentation/css-validator.png)
+The CSS was validated by Jigsaw validator (https://jigsaw.w3.org/css-validator/) without any issues.
+
+### Accessibility
+
+![Lighthouse](documentation/accessibility-lighthouse.png)
+Accessibility was tested using Lighthouse within the chrome developer tools.
+
+### Solved Bugs
+
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | explain bug | explain solution |
+
+
+### Known Bugs
+
+* There is still a minor alignment issue when viewing the websites 2nd page in horizontal mode on my phone (iPhone SE2). Idealy the Video and image in the first section should either be in one line (horizontal) or below each other and as wide as the text column (vertical mode). Its response is correct when checked in the chrome developer tools but when I view it on my phone I see a missalignment issue.
+
+* Load time seems to be an issue with larger images and the video file. This could be immproved in future iterations by further customizing image sizes and resolution and connecting videos via external links and store them on sites like youtube. 
+
+ 

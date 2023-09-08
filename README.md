@@ -8,14 +8,28 @@ Visit the deployed site: [Plant Atlas](https://andre-42.github.io/CodeInstitute-
 ## Contents
 
 * [General Intent](#general-intent)
-    * [Features](#features)
+    * [Concept](#concept)
     * [Usage](#usage)
-* [Design]
+* [Design](#design)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [HTML And CSS Features](#features)
+    * [Accessibility](#accessibility)
+* [Deployment And Local Development](#deployment--local-development)
+    * [Deployment](#deployment)
+    * [Local Development](#local-development)
+* [Testing](#testing)
+    *[HTML Validator](#html-validator)
+    *[Jigsaw](#css-validator)
+    *[Lighthouse](#accessibility-1)
+    *[Solved Bugs](#solved-bugs)
+    *[Known Bugs](#known-bugs)
 
 ## General Intent
 The Coffee Atlas is a web platform designed to introduce students and interested people to the world of plant biology and chemistry, with a focus on coffee cultivation. This page has been created as a learning resource for students, as well as for anyone with an interest in understanding the intricate processes that go into growing coffee.
 
-### Features
+### Concept
 - **Interactive Learning:** The Coffee Atlas offers an engaging learning experience. It prompts users with a thought-provoking question, "How long does it take to make a cup of coffee?" to spark curiosity and set the stage for exploration.
 
 - **Informative Content:** The platform provides concise and accessible information about the biology and chemistry of coffee plants. Users can delve into topics like sugar transport, cell wall processing, and protein features related to coffee growth and disease response during development.
@@ -91,7 +105,7 @@ This has been achieved by:
 * Choosing a simple font style for better readability
 * Using contrasting colors as best as possible between background and text within the given color scheme.
 
-
+Accessibility has been tested with Lighthouse in google developer tools, refere to [test section](#testing).
 
 ## Deployment & Local Development
 

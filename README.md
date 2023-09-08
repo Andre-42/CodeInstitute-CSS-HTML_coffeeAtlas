@@ -125,6 +125,30 @@ This has been achieved by:
 
 Accessibility has been tested with Lighthouse in google developer tools, refere to [test section](#testing).
 
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, Javascript (if implementation wasn't achievable in css and html alone)
+
+### Frameworks, Libraries & Programs Used
+
+* Am I Responsive?: display website responsiveness
+* Amira: video editing
+* VideoProc Vlogger: video compression
+* CodeAnywhere: IDE for site creation
+* Powerpoint: wireframe creation and image assembly
+* Favicon.io: favicon creation
+* Git: version control
+* Github: file storage for website
+* GitPod: IDE for site creation
+* Google Fonts: font-family import
+* Google Developer Tools: troubleshooting, feature testing, styling 
+* iloveimg.com: image compression
+* jQuery: JavaScript library
+* Matlab: MRI & chemical image processing
+* Webpage Spell-Check: chrome extension for spell checking
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -197,4 +221,28 @@ Accessibility was tested using Lighthouse within the chrome developer tools.
 
 * Load time seems to be an issue with larger images and the video file. This could be immproved in future iterations by further customizing image sizes and resolution and connecting videos via external links and store them on sites like youtube. 
 
- 
+## Credits
+
+### Code usage and inspration
+
+* I used forums like stackoverflow.com during trouble shooting to check causes for issues I ran into during development.
+
+* Code Institute teaching material as well as websites like w3schools.com and developer.mozilla.org to check execution and phrasing of code as well as example code.
+
+* Github for repository templates and readme inspiration.
+
+### Content
+
+All the code was written by myself. Images and data for the content was provided by myself and my co-workers at the IPK and has been published during conferences like the one mentioned in this readme.
+
+### Media
+
+Background image for the header (https://www.freeimages.com/es/photo/coffee-bean-1637878)
+
+### Acknowledgements
+
+Thank you to the Team of the research group AAN at the IPK Gatersleben for being wonderful co-workers during the past 9 years I worked there.
+
+Especially Ljudmilla Borisjuk, Hardy Rolletschek, Steffen Wagner and Stefan Ortleb.
+
+Jubril Akolade, my mentor for his good advice and Code Institute when I was struggeling with IDE time credits.

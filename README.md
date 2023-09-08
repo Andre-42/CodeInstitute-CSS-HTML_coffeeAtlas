@@ -165,12 +165,17 @@ Accessibility was tested using Lighthouse within the chrome developer tools.
 
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
-| 1 | explain bug | explain solution |
+| 1 | Alignment issues were observed at multiple stages to convert the desktop version into more mobile appropriate sizing. In particular gaps between header and navbar were an issue when the aspect ratio of the header changes. This is due to the fact that both are absolutly positioned and fixed so that they stay in place while scrolling. | I identified breakpoints for screen widths where such alignmentent issues occured and implemented css rule changes regarding display options, margins and padding. In case of the header and navbar issue it was a simple fix of adjusting the 'top:' property appropriotly.  |
+| 2 | When width references were stated in 100vw. I had boundary issues creating a horizontal scroll bar.| After reading a few posts online about the issue, i realized that this issue comes from margins and their relationship with parental boundaries. I could fix that by using % width declarations. |
+| 3 | When jumping to specific sections on the web page via links. The top of those sections were hidden behind the header and navbar. | I knew it was due to the fixed position of header. This makes the top of the section align with the top of the browser after using the link. While browsing this question I read about the use of pseudo-classes for this problem and implemented a solution using ::before. |
+| 4 | Fixed position items moved when scrolling while checking the page in developer tools with android phone settings. | Stackoverflow helped again. I found the same issue there and the fix was to add content="minimum-scale=1" to <meta> in the head of the HTML. |
+| 6 | Trouble with active statement and hover in touchscreen mode. While my dropdown menu in the navbar was expanding when pressing the not hidden link. It only appeared while pressing the link. When I lost touch with my finger it collapsed again. | I tried implementing different ways using :active and :focus pseudo classes and it partially worked. However this lead to a point that the dropdown part did not hide again when focus should have been on a different section of the page. In the end I resorted to using JS functions for this purpose to create a collapsable dropdown menu for touch applications. |
 
 
 ### Known Bugs
 
-* There is still a minor alignment issue when viewing the websites 2nd page in horizontal mode on my phone (iPhone SE2). Idealy the Video and image in the first section should either be in one line (horizontal) or below each other and as wide as the text column (vertical mode). Its response is correct when checked in the chrome developer tools but when I view it on my phone I see a missalignment issue.
+* There is still a minor alignment issue when viewing the websites 2nd page in horizontal mode on my phone (iPhone SE2). Idealy the video and image in the first section should either be in one line (horizontal) or below each other and as wide as the text column (vertical mode). Its response is correct when checked in the chrome developer tools but when I view it on my phone I see a misalignment issue.
+![Misalignment](documentation/se-bug-alignment-real.png)
 
 * Load time seems to be an issue with larger images and the video file. This could be immproved in future iterations by further customizing image sizes and resolution and connecting videos via external links and store them on sites like youtube. 
 

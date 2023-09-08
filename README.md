@@ -80,20 +80,38 @@ The website is comprised of a home page and a secondary page with content regard
 All pages are responsive and have:
 
 * A favicon in the browser tab.
-* The main title in the header and a responsive navigation bar under the header or on left the side of the page.
-* The footer acts as a contact section with links to external sites to get in touch with me or the IPK. The footer can be reach by clicking the contact button at the navbar.
+![Favicon](documentation/fav-icon-tab.png)
+* The main title in the header and a responsive navigation bar let you navigate between html pages and the contact section. The current page is highlighted and each button reacts to hovering by visual changes.
+    ![Page Change](documentation/change-page.png)
+    The navbar is located under the header or on left the side of the page.
+    ![Header and Navbar](documentation/dropdown-touch.png)
+    The dropdown menu reacts to hover and touch actions to extent or collapse subchapter navigation on the current page and links between each HTML page as well as with the footer where the contact information is located by clicking on the buttons.
+    ![Dropdown Function](documentation/dropdown-menu.png)
+    The links within the collapsable section of the navbar link to other sections of the page.
+* The footer acts as a contact section with links to external sites to get in touch with me (LinkedIN, Researchgate and Github) or the IPK via the logo. The footer can be reached by clicking the contact button at the navbar.
+![Contact](documentation/contact.png)
 * The lower right corner of the page holds a link icon which takes you back to the top of the page.
+![Back to top](documentation/back-to-top.png)
 * The curser changes in response to hovering above links, buttons and selection items. 
 * The navbar has dropdown functionality for hovering on desktop screens (see style.css file). Hover functions are switched off (see style.css file) for touchscreen users and JS was implemented to imitate dropdown functionality on touch devices.
 
 #### The Home Page
-
+![Main Page](documentation/am-i-responsive.png)
+The home page introduces the reader to the topic of coffee by asking a question to catch further interest in the topic. It has two main sections other than header, navbar and footer, which are reachable by the dropdown navbar section or scrolling down. The first section is the introduction question related information while the second section gives information about coffee development. At the end of the text you can find a small coffee icon within the text that takes you away to the second HTML page if you press it. 
+![Switch Page By Icon](documentation/internal-link.png)
 
 #### The Aborted Seed Page
-
+![Seed Abort Page](documentation/am-i-responsive-2.png)
+The second page delves deeper into the coffee seed and what can happen when diseases effect the tree. At first the reader is introduced to the inner structure of the coffee cherry. Here the user has a chance to start a video which shows the different parts of the coffee seed inside the cherry by MRI. Two cross sections are also provided.
+![Coffee MRI](documentation/mri-video.png)
+The next section introduces the reader to different coffee diseases and provides links to external sites with related information. Links are executed in a new tab.
+![External Links](documentation/external-link-content.png)
+The third section introduces the reader to the chemistry within the coffee cherry and how different it looks between healthy and aborted coffee beans (seeds). The reader is able to select between three different chemical groups to see how they are distributed within the cherry. The chemical images are combined with a MRI cross section that shows the internal structure.
+![Chemical Mapping](documentation/chem-select.png)
+The last section shows you the structure of the supply veins within the cherry that feed the beans.
 
 #### Future Implementations
-
+The footer says what I'd like to do with this page if given the chance. As it largely depends on additional information provided by research it needs collaboration with others. The goal would be to create a full compemdium of what happens with a coffee bean from flower to cup both structurally and chemically. So my page is just a teaser on that path. I have more data on the topic but nothing complete unfortunately. Which means futur implementations need support from others.
 
 ### Accessibility
 
@@ -101,8 +119,8 @@ I have been mindful to improve accessibility after first deployment and project 
 
 This has been achieved by:
 * Using semantic HTML e.g., header, main, section, footer, etc.
-* Using hover functionality on interactive content and employing alternative means for touchscreen usage
-* Choosing a simple font style for better readability
+* Using hover functionality on interactive content and employing alternative means for touchscreen usage.
+* Choosing a simple font style for better readability.
 * Using contrasting colors as best as possible between background and text within the given color scheme.
 
 Accessibility has been tested with Lighthouse in google developer tools, refere to [test section](#testing).

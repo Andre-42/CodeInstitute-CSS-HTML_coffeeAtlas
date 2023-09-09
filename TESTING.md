@@ -55,3 +55,24 @@ Each page is achieving a score of 100 for accessibility and best practise. Only 
 ![seed-abort.html](documentation/accessibility-lighthouse-seed-abort-mobile.png)
 
 - - -
+
+## MANUAL TESTING
+
+### Testing User Stories
+
+`First Time Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want users to consider the work that goes into coffee production and learn something new about coffee development| The page allows the user to brows through different informational snippets about coffee growth and effects of diseases on the growing plant. |
+| I want the site to be responsive to my device. | I have developed the site with responsiveness in mind. Both navigational elements and the context adjusts in response to the viewing device. |
+| I want the site to be easy to navigate and interactive for the user. | Buttons and linked icons are used throughout the site for navigation. The content can be found via the navigation menu as well as through internal links. The user is able to select content to be viewed and play video content to have alternatives to reading. |
+
+`Returning And Frequent Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want the user to be able to find more information than the content of the website. | Users are able to select external links to find out more about coffee diseases. External links open in a new tab. |
+| I want to professional users to be able to reach out to me and the institute. | Users of the site are able to follow links to my linkedIN, reseachgate and github profile to contact me. Additionally users are able to follow a link to the rearch groups home page that was involved in the research. |
+
+- - -

@@ -200,11 +200,23 @@ The HTML content was validated by nu validator (https://validator.w3.org/#valida
 ### CSS validator
 
 ![W3C css validator](documentation/css-validator.png)
+
 The CSS was validated by Jigsaw validator (https://jigsaw.w3.org/css-validator/) without any issues.
 
 ### Accessibility
 
-![Lighthouse](documentation/accessibility-lighthouse.png)
+#### Desktop Accessibility Test
+* index.html
+![Lighthouse Desktop index.html](documentation/accessibility-lighthouse-index-desktop.png)
+* seed-abort.html
+![Lighthouse Desktop seed-abort.html](documentation/accessibility-lighthouse-seed-abort-desktop.png)
+
+#### Mobile Accessibility Test
+* index.html
+![Lighthouse Mobile index.html](documentation/accessibility-lighthouse-index-mobile.png)
+* seed-abort.html
+![Lighthouse Mobile seed-abort.html](documentation/accessibility-lighthouse-seed-abort-mobile.png)
+
 Accessibility was tested using Lighthouse within the chrome developer tools.
 
 ### Solved Bugs

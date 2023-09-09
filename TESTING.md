@@ -76,3 +76,29 @@ Each page is achieving a score of 100 for accessibility and best practise. Only 
 | I want to professional users to be able to reach out to me and the institute. | Users of the site are able to follow links to my linkedIN, reseachgate and github profile to contact me. Additionally users are able to follow a link to the rearch groups home page that was involved in the research. |
 
 - - -
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop:
+  * ASUS Vivobook Pro 16x OLED
+* Mobile Devices:
+  * iPhone SE 2.
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Title changes dimensions responsive to viewing device and not constrict other sections of the html. | Checked different devices in developer tools on chrome. | Header does not obscure other content | Pass |
+| Menu | Changes from top bar to side bar | Checked responsiveness to screen sizes in developer tools. | Navbar changed from horizontal orientation to side orientation whith smaller screen sizes | Pass |
+| Main button | Hover extents submenu | Checked hovering with mouse. | Navbar extended while hovering and closed whne leaving the section | Pass |
+| Main button | No hover on touch screen devices but button push function. | Checked collapsability of submenu on touch screen. | When pushing main, sub menu extends and retract after second push on main. | Pass |
+| just a cup link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
+| flower to bean link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
+| a failed seed link | Functionality | Checked that hovering creates a visual responce of the link and pressing will the abort-seed.html | Link works as expected. Page changes upon click. | Pass |

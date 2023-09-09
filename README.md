@@ -189,8 +189,12 @@ To clone the repository:
 ## Testing
 
 ### HTML validator
+* index.html
+![nu HTML validator index.html](documentation/W3C-index-validation.png)
 
-![nu HTML validator](documentation/html-validation.png)
+* seed-abort.html
+![nu HTML validator seed-abort.html](documentation/W3C-seed-abort-validation.png)
+
 The HTML content was validated by nu validator (https://validator.w3.org/#validate_by_uri).
 
 ### CSS validator

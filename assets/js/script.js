@@ -8,14 +8,14 @@ function showNoShow(inputtext) {
     const altList = ["ch-11","ch-12","ch-13","ch-14"];
     var classList = mainList;
     if (inputtext === "main") {
-        console.log('main page')
+        console.log('main page');
     } else {
         classList = altList;
-        console.log('seed page')
+        console.log('seed page');
     }
 
     let elementOne = classList[0];
-    vis = document.getElementById(elementOne).style.visibility;
+    let vis = document.getElementById(elementOne).style.visibility;
     for (let i = 0; i < classList.length; i++) {
         let element = classList[i];
         if (vis === "hidden" || vis === "") {
@@ -33,5 +33,5 @@ function showNoShow(inputtext) {
             document.getElementById("actual-up").style.display = "none";
             document.getElementById("actual-down").style.display = "inline-block";
         }
-    };
+    }
 }

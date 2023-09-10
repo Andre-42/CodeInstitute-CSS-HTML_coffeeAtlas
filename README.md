@@ -83,7 +83,7 @@ Wireframes were created for vertical and horizontal screen sizes using Powerpoin
 
 ![Page with selection box](documentation/wireframe-select.png)
 
-![Page end with image and flowing text](documentation/wirefreme-end-of page.png)
+![Page end with image and flowing text](documentation/wireframe-end-of-page.png)
 
 ### Features
 

@@ -36,6 +36,13 @@ I have gone through each page using google chrome developer tools.
 
 * [style.css](assets/css/style.css)
 [style.css](documentation/css-validator.png) - Passed, no errors found.
+- - -
+
+### JavaScript Validator
+
+[jshint](https://jshint.com/) was used to validate the JavaScript.
+
+* [script.js](documentation/jshint.png) - Passed, with 6 warnings regarding version availability.
 
 - - -
 

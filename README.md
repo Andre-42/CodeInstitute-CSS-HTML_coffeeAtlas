@@ -14,17 +14,15 @@ Visit the deployed site: [Plant Atlas](https://andre-42.github.io/CodeInstitute-
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
+    * [Wireframes](#wireframe)
     * [HTML And CSS Features](#features)
     * [Accessibility](#accessibility)
 * [Deployment And Local Development](#deployment--local-development)
     * [Deployment](#deployment)
     * [Local Development](#local-development)
 * [Testing](#testing)
-    *[HTML Validator](#html-validator)
-    *[Jigsaw](#css-validator)
-    *[Lighthouse](#accessibility-1)
-    *[Solved Bugs](#solved-bugs)
-    *[Known Bugs](#known-bugs)
+    * [Solved Bugs](#solved-bugs)
+    * [Known Bugs](#known-bugs)
 
 ## General Intent
 The Coffee Atlas is a web platform designed to introduce students and interested people to the world of plant biology and chemistry, with a focus on coffee cultivation. This page has been created as a learning resource for students, as well as for anyone with an interest in understanding the intricate processes that go into growing coffee.

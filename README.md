@@ -188,36 +188,7 @@ To clone the repository:
 
 ## Testing
 
-### HTML validator
-* index.html
-![nu HTML validator index.html](documentation/W3C-index-validation.png)
-
-* seed-abort.html
-![nu HTML validator seed-abort.html](documentation/W3C-seed-abort-validation.png)
-
-The HTML content was validated by nu validator (https://validator.w3.org/#validate_by_uri).
-
-### CSS validator
-
-![W3C css validator](documentation/css-validator.png)
-
-The CSS was validated by Jigsaw validator (https://jigsaw.w3.org/css-validator/) without any issues.
-
-### Accessibility
-
-#### Desktop Accessibility Test
-* index.html
-![Lighthouse Desktop index.html](documentation/accessibility-lighthouse-index-desktop.png)
-* seed-abort.html
-![Lighthouse Desktop seed-abort.html](documentation/accessibility-lighthouse-seed-abort-desktop.png)
-
-#### Mobile Accessibility Test
-* index.html
-![Lighthouse Mobile index.html](documentation/accessibility-lighthouse-index-mobile.png)
-* seed-abort.html
-![Lighthouse Mobile seed-abort.html](documentation/accessibility-lighthouse-seed-abort-mobile.png)
-
-Accessibility was tested using Lighthouse within the chrome developer tools.
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Solved Bugs
 
@@ -227,7 +198,7 @@ Accessibility was tested using Lighthouse within the chrome developer tools.
 | 2 | When width references were stated in 100vw. I had boundary issues creating a horizontal scroll bar.| After reading a few posts online about the issue, i realized that this issue comes from margins and their relationship with parental boundaries. I could fix that by using % width declarations. |
 | 3 | When jumping to specific sections on the web page via links. The top of those sections were hidden behind the header and navbar. | I knew it was due to the fixed position of header. This makes the top of the section align with the top of the browser after using the link. While browsing this question I read about the use of pseudo-classes for this problem and implemented a solution using ::before. |
 | 4 | Fixed position items moved when scrolling while checking the page in developer tools with android phone settings. | Stackoverflow helped again. I found the same issue there and the fix was to add content="minimum-scale=1" to <meta> in the head of the HTML. |
-| 6 | Trouble with active statement and hover in touchscreen mode. While my dropdown menu in the navbar was expanding when pressing the not hidden link. It only appeared while pressing the link. When I lost touch with my finger it collapsed again. | I tried implementing different ways using :active and :focus pseudo classes and it partially worked. However this lead to a point that the dropdown part did not hide again when focus should have been on a different section of the page. In the end I resorted to using JS functions for this purpose to create a collapsable dropdown menu for touch applications. |
+| 5 | Trouble with active statement and hover in touchscreen mode. While my dropdown menu in the navbar was expanding when pressing the not hidden link. It only appeared while pressing the link. When I lost touch with my finger it collapsed again. | I tried implementing different ways using :active and :focus pseudo classes and it partially worked. However this lead to a point that the dropdown part did not hide again when focus should have been on a different section of the page. In the end I resorted to using JS functions for this purpose to create a collapsable dropdown menu for touch applications. |
 
 
 ### Known Bugs
@@ -241,11 +212,11 @@ Accessibility was tested using Lighthouse within the chrome developer tools.
 
 ### Code usage and inspration
 
-* I used forums like stackoverflow.com during trouble shooting to check causes for issues I ran into during development.
+* I used forums like [stackoverflow.com](https://stackoverflow.com/) during trouble shooting to check causes for issues I ran into during development.
 
-* Code Institute teaching material as well as websites like w3schools.com and developer.mozilla.org to check execution and phrasing of code as well as example code.
+* Code Institute teaching material as well as websites like [w3schools.com](https://w3schools.com/) and [developer.mozilla.org](https://developer.mozilla.org/) to check execution and phrasing of code as well as example code.
 
-* Github for repository templates and readme inspiration.
+* Github for [repository templates](https://github.com/Code-Institute-Org/ci-full-template) and [readme](https://github.com/kera-cudmore/TheQuizArms/tree/main) inspiration.
 
 ### Content
 

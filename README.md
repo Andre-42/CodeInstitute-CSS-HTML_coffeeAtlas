@@ -73,6 +73,18 @@ Google Fonts was used for the primary font Quicksand. Backup fonts are Verdana a
 Content images come from my research data on coffee imaging which was produced at the IPK (https://www.ipk-gatersleben.de/). This data was presented at the XIV Symposium of Plant Biotechnology by me:
 * A. Guendel, S. Wagner, Ortleb, S. Kalms, L., H. Rolletschek and L. Borisjuk; Investigation of early seed development in Coffea arabica using nuclear magnetic resonance (MRI) and infrared imaging. XIV Symposium on Plant Biotechnology, Cayo Santa Maria, Cuba, 2022
 
+### Wireframe
+Wireframes were created for vertical and horizontal screen sizes using Powerpoint.
+![Page with video and image content](documentation/wireframe-page.png)
+
+![Page with broad image panel](documentation/wireframe-wide-image-panel.png)
+
+![Page with multiple images together](documentation/wireframe-multimage.png)
+
+![Page with selection box](documentation/wireframe-select.png)
+
+![Page end with image and flowing text](documentation/wirefreme-end-of page.png)
+
 ### Features
 
 The website is comprised of a home page and a secondary page with content regarding the coffee seed in context of plant diseases.

@@ -14,35 +14,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/facb0ba5ba.js" crossorigin="anonymous"></script>
-    <!-- JS function -->
-    <script>
-        function jsDropDown(imgid, newimg) {
-            document.getElementById(imgid).src = "assets/images/ir/daf46/" + newimg;
-        }
-        function showNoShow() {
-            const classList = ["ch-11","ch-12","ch-13","ch-14"];
-            let elementOne = classList[0];
-            vis = document.getElementById(elementOne).style.visibility;
-            for (let i = 0; i < classList.length; i++) {
-                let element = classList[i];
-                if (vis === "hidden" || vis === "") {
-                    document.getElementById(element).style.display = "block";
-                    document.getElementById(element).style.visibility = "visible";
-                    document.getElementById(element).style.opacity = "1";
-                    document.getElementById("actual").style.backgroundColor = "#016401";
-                    document.getElementById("actual-up").style.display = "inline-block";
-                    document.getElementById("actual-down").style.display = "none";
-                } else {
-                    document.getElementById(element).style.display = "none";
-                    document.getElementById(element).style.visibility = "hidden";
-                    document.getElementById(element).style.opacity = "0";
-                    document.getElementById("actual").style.backgroundColor = "#9ACD32";
-                    document.getElementById("actual-up").style.display = "none";
-                    document.getElementById("actual-down").style.display = "inline-block";
-                }
-            };
-        }
-    </script>
 </head>
 
 <body>
@@ -60,7 +31,7 @@
                 <button onclick="window.location.href='index.html';" class="bld">main</button>
             </div>
             <div id="actual" class="n3 actual">
-                <button onclick=showNoShow() class="openBtn bld actual">
+                <button onclick="showNoShow('altpage')" class="openBtn bld actual">
                     a failed seed <i id="actual-down" class="fa-solid fa-caret-down"></i>
                     <i id="actual-up" class="fa-solid fa-caret-up"></i>
                 </button>
@@ -339,6 +310,8 @@
             </div>
         </div>
     </footer>
+    <!-- JS script -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

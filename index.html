@@ -16,32 +16,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Fontawesom -->
     <script src="https://kit.fontawesome.com/facb0ba5ba.js" crossorigin="anonymous"></script>
-    <!-- JS functions -->
-    <script>
-        function showNoShow() {
-            const classList = ["ch-01","ch-02"];
-            let elementOne = classList[0];
-            vis = document.getElementById(elementOne).style.visibility;
-            for (let i = 0; i < classList.length; i++) {
-                let element = classList[i];
-                if (vis === "hidden" || vis === "") {
-                    document.getElementById(element).style.display = "block";
-                    document.getElementById(element).style.visibility = "visible";
-                    document.getElementById(element).style.opacity = "1";
-                    document.getElementById("actual").style.backgroundColor = "#016401";
-                    document.getElementById("actual-up").style.display = "inline-block";
-                    document.getElementById("actual-down").style.display = "none";
-                } else {
-                    document.getElementById(element).style.display = "none";
-                    document.getElementById(element).style.visibility = "hidden";
-                    document.getElementById(element).style.opacity = "0";
-                    document.getElementById("actual").style.backgroundColor = "#9ACD32";
-                    document.getElementById("actual-up").style.display = "none";
-                    document.getElementById("actual-down").style.display = "inline-block";
-                }
-            };
-        }
-    </script>
 </head>
 
 <body>
@@ -56,7 +30,7 @@
     <nav>
         <div class="navbar">
             <div id="actual" class="n1 actual">
-                <button onclick=showNoShow() class="openBtn bld actual">
+                <button onclick="showNoShow('main')" class="openBtn bld actual">
                     main <i id="actual-down" class="fa-solid fa-caret-down"></i>
                     <i id="actual-up" class="fa-solid fa-caret-up"></i>
                 </button>
@@ -171,6 +145,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

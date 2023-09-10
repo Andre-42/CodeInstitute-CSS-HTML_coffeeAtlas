@@ -150,14 +150,15 @@ HTML, CSS, Javascript (if implementation wasn't achievable in css and html alone
 * Powerpoint: wireframe creation and image assembly
 * Favicon.io: favicon creation
 * Git: version control
-* Github: file storage for website
+* Github: file storage for website and repository template
 * GitPod: IDE for site creation
 * Google Fonts: font-family import
 * Google Developer Tools: troubleshooting, feature testing, styling 
 * iloveimg.com: image compression
-* jQuery: JavaScript library
 * Matlab: MRI & chemical image processing
 * Webpage Spell-Check: chrome extension for spell checking
+
+Some default assets may be missing from the list. This may be if I am unaware of there use in background operations during the creation of the project and I have not used them actively.
 
 ## Deployment & Local Development
 

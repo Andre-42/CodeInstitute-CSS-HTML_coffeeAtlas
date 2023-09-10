@@ -210,6 +210,20 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 4 | Fixed position items moved when scrolling while checking the page in developer tools with android phone settings. | Stackoverflow helped again. I found the same issue there and the fix was to add content="minimum-scale=1" to <meta> in the head of the HTML. |
 | 5 | Trouble with active statement and hover in touchscreen mode. While my dropdown menu in the navbar was expanding when pressing the not hidden link. It only appeared while pressing the link. When I lost touch with my finger it collapsed again. | I tried implementing different ways using :active and :focus pseudo classes and it partially worked. However this lead to a point that the dropdown part did not hide again when focus should have been on a different section of the page. In the end I resorted to using JS functions for this purpose to create a collapsable dropdown menu for touch applications. |
 
+#### HTML And Essentials Assessment Result Fixes
+| Criterion | Issue | How I solved the issue |
+| :--- | :--- | :--- |
+| 1.1 | Difficulty in Navigation | Fixed alignment issues with smaller screen sizes where menu items were obscured. Added missing link to contact button. |
+| 2.2 | Failed to pass W3C validator | Code was changed to resolve all issues noticed in the validator. Validator passes now, see [TESTING.md](TESTING.md). |
+| 2.3 | Failes to pass Jigsaw | Essential adjustments were made to style.css and it now passes. See [TESTING.md](TESTING.md). |
+| 2.5 | No external links are used | External links to off-side content are now available as well as links to relevant social media sides for contact purposes. External links open in new tab. |
+| 3.2 | Few big commits | I tried to commit changes on a more regular basis with smaller commits instead of larger ones during website improvement after first assessment. |
+| 3.4 | Broken links hamper user experience | I fixed all links to open in new tab if external content is linked. Broken links were corrected and all links are now working. |
+| 4.1 | Missing relevant steps or included but not described in detail. | I completed the readme and wrote a seperate [TESTING.md](TESTING.md) to include more detail in the discription and testing of the project. Missing chapters were added to the readme as suggested. Comments for better structuring of HTMLs and CSS-files were included. |
+| 4.3 | Attributions missing. | Attributions were added for code segments taken literally from forums or code examples otherwise Tutuórial sides are attributed in the readme now. Used tools, etc. are also mentioned within the readme. |
+| 4.4 | Jumbled or unclear separations of different code sections. | Code was thouroughly cleaned during debugging and validation process. |
+| 4.5 | Code comments were missing for different sections. | Comments were added into html files. |
+| 4.8 | File naming convention violated in the repository. | Files that failed the naming convention were renamed. Links that rely on those files were checked and filepaths corrected. |
 
 ### Known Bugs
 

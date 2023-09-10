@@ -101,4 +101,11 @@ Each device tested the site using the following browsers:
 | Main button | No hover on touch screen devices but button push function. | Checked collapsability of submenu on touch screen. | When pushing main, sub menu extends and retract after second push on main. | Pass |
 | just a cup link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
 | flower to bean link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
-| a failed seed link | Functionality | Checked that hovering creates a visual responce of the link and pressing will the abort-seed.html | Link works as expected. Page changes upon click. | Pass |
+| a failed seed link | Functionality | Checked that hovering creates a visual responce of the link and pressing will open the abort-seed.html | Link works as expected. Page changes upon click. | Pass |
+| contact link | Functionality | Checked hovering and execution function. | Link works as expected. Hovering creates a visual response and clicking will move the viewpoint to the footer section. | Pass |
+| all links in main and footer section | Functionality | Hover over link and clicking on links. | Links works as expected. Internal links direct user to expected content on the page. External links open new tab with external content. All links give visual response to hovering. | Pass |
+
+`Seed Abort Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |

@@ -28,10 +28,15 @@ I have gone through each page using google chrome developer tools.
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](documentation/W3C-index-validation.png) - Passed.
-* [seed-abort.html](documentation/W3C-seed-abort-validation.png) - Passed.
+* [index.html](index.html)
+![index.html](documentation/W3C-index-validation.png) - Passed.
 
-* [style.css](documentation/css-validator.png) - Passed, no errors found.
+* [seed-abort.html](seed-abort.html)
+![seed-abort.html](documentation/W3C-seed-abort-validation.png) - Passed.
+
+* [style.css](assets/css/style.css)
+[style.css](documentation/css-validator.png) - Passed, no errors found.
+
 - - -
 
 ### Lighthouse
@@ -73,7 +78,7 @@ Each page is achieving a score of 100 for accessibility and best practise. Only 
 | Goals | How are they achieved? |
 | :--- | :--- |
 | I want the user to be able to find more information than the content of the website. | Users are able to select external links to find out more about coffee diseases. External links open in a new tab. |
-| I want to professional users to be able to reach out to me and the institute. | Users of the site are able to follow links to my linkedIN, reseachgate and github profile to contact me. Additionally users are able to follow a link to the rearch groups home page that was involved in the research. |
+| I want professional users to be able to reach out to me and the institute that was invloved in creating the data. | Users of the site are able to follow links to my linkedIN, reseachgate and github profile to contact me. Additionally users are able to follow a link to the rearch groups home page that was involved in the research. |
 
 - - -
 
@@ -96,31 +101,31 @@ Each device tested the site using the following browsers:
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The Sites title | Title changes dimensions responsive to viewing device and not constrict other sections of the html. | Checked different devices in developer tools on chrome. | Header does not obscure other content | Pass |
-| Menu | Changes from top bar to side bar | Checked responsiveness to screen sizes in developer tools. | Navbar changed from horizontal orientation to side orientation whith smaller screen sizes | Pass |
+| Menu | Changes from top bar to side bar | Checked responsiveness to screen sizes in developer tools. | Navbar changed from horizontal orientation to side orientation with smaller screen sizes | Pass |
 | Content display | Responsiveness | Changing screen size. | Main content loads and organizes according to screen layout. No overlaps or unintended gaps were observed. | Pass |
-| Main button | Hover extents submenu | Checked hovering with mouse. | Navbar extended while hovering and closed whne leaving the section | Pass |
-| Main button | No hover on touch screen devices but button push function. | Checked collapsability of submenu on touch screen. | When pushing main, sub menu extends and retract after second push on main. | Pass |
-| just a cup link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
-| flower to bean link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
-| a failed seed link | Functionality | Checked that hovering creates a visual responce of the link and pressing will open the abort-seed.html | Link works as expected. Page changes upon click. | Pass |
-| contact link | Functionality | Checked hovering and execution function. | Link works as expected. Hovering creates a visual response and clicking will move the viewpoint to the footer section. | Pass |
-| all links in main and footer section | Functionality | Hover over link and clicking on links. | Links works as expected. Internal links direct user to expected content on the page. External links open new tab with external content. All links give visual response to hovering. | Pass |
+| Main button | Hover extents submenu | Checked hovering with mouse. | Navbar extended while hovering and closed when leaving the section | Pass |
+| Main button | No hover on touch screen devices but button push function. | Checked collapsibility of submenu on touch screen. | When pushing main, sub menu extends and retract after second push on main. | Pass |
+| Just a cup link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
+| Flower to bean link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
+| A failed seed link | Functionality | Checked that hovering creates a visual response of the link and pressing will open the abort-seed.html | Link works as expected. Page changes upon click. | Pass |
+| Contact link | Functionality | Checked hovering and execution function. | Link works as expected. Hovering creates a visual response and clicking will move the viewpoint to the footer section. | Pass |
+| All links in main and footer section | Functionality | Hover over link and clicking on links. | Links works as expected. Internal links direct user to expected content on the page. External links open new tab with external content. All links give visual response to hovering. | Pass |
 
 `Seed Abort Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The Sites title | Title changes dimensions responsive to viewing device and not constrict other sections of the html. | Checked different devices in developer tools on chrome. | Header does not obscure other content | Pass |
-| Menu | Changes from top bar to side bar | Checked responsiveness to screen sizes in developer tools. | Navbar changed from horizontal orientation to side orientation whith smaller screen sizes | Pass |
+| Menu | Changes from top bar to side bar | Checked responsiveness to screen sizes in developer tools. | Navbar changed from horizontal orientation to side orientation with smaller screen sizes | Pass |
 | Content display | Responsiveness | Changing screen size. | Main content loads and organizes according to screen layout. No overlaps or unintended gaps were observed. | Pass |
-| Main button | Functionality | Checked that hovering creates a visual responce of the link and pressing will open the abort-seed.html | Link works as expected. Page changes upon click. | Pass |
-| A failed seed button | Hover extents submenu | Checked hovering with mouse. | Navbar extended while hovering and closed whne leaving the section | Pass |
-| A failed seed button | No hover on touch screen devices but button push function. | Checked collapsability of submenu on touch screen. | When pushing main, sub menu extends and retract after second push on main. Icons change according to submenu state. | Pass |
+| Main button | Functionality | Checked that hovering creates a visual response of the link and pressing will open the abort-seed.html | Link works as expected. Page changes upon click. | Pass |
+| A failed seed button | Hover extents submenu | Checked hovering with mouse. | Navbar extended while hovering and closed when leaving the section | Pass |
+| A failed seed button | No hover on touch screen devices but button push function. | Checked collapsibility of submenu on touch screen. | When pushing main, sub menu extends and retract after second push on main. Icons change according to submenu state. | Pass |
 | The cherry link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
-| Its challanges link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
+| Its challenges link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
 | Starvation link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
 | The nutritional highway link | Functionality | Checked that hovering underscores the link and pressing will move the main section to the appropriate chapter | Link works as expected. Section heading shows below the header after click. | Pass |
 | Contact link | Functionality | Checked hovering and execution function. | Link works as expected. Hovering creates a visual response and clicking will move the viewpoint to the footer section. | Pass |
 | All links in main and footer section | Functionality | Hover over link and clicking on links. | Links works as expected. Internal links direct user to expected content on the page. External links open new tab with external content. All links give visual response to hovering. | Pass |
-| video | video function | Idle at load, play / pause function | When loading the page the video is idle. After clicking play, it will start and when clicking pause it will stop. | Pass |
+| Video | video function | Idle at load, play / pause function | When loading the page the video is idle. After clicking play, it will start and when clicking pause it will stop. | Pass |
 | Feature selection menu | Selectable image display | Checked if every item in the selection box can be selected. | Default image changes after selecting a different image in the selection box. Correct image is loaded in accordance with selected item. Function works both on mobile and desktop devices |
